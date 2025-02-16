@@ -6,7 +6,7 @@ Cells can form clumps of protein and RNA called "stress granules" (SGs) in repso
 - **Panel B:** I developed a Python-based webserver that automatically quantifies the ability of sPrLD to go to SGs directly from the yeast microscopy images.
 - **Panel C:** A statistical test ("Tukey's HSD" post-hoc test) indicates which groups significantly differ from the others, while controlling the family-wise error rate across multiple hypothesis tests.
 
-![SG figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2024_JMB/SG_figure.tif)
+![SG figure](https://raw.githubusercontent.com/seancascarina/2024_JMB/master/SG_figure.tif)
 
 ## Additional Detail
 **Panel A** shows images of yeast cells with two different proteins shown in different colors. The green color shows us where our protein of interest is in cells. The red color shows us where SGs are located in cells. Notice that the red protein always forms clumps that appear as bright spots. Compare that with the green "WT" protein, which starts out forming bright green spots at the same locations as the red bright spots. However, as more I, L, and V are removed (-3 ILV, -6 ILV, ... , -19 ILV), the green spots gradually become dimmer and dimmer before disappearing entirely around -12 ILV, even though the bright red spots still occur in the same cells.
