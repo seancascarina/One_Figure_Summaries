@@ -5,6 +5,7 @@ Cells can form clumps of protein and RNA called "stress granules" (SGs) in repso
 - **Panel A:** Progressively removing I, L, and V amino acids from the green "sPrLD2" protein prevents it from going to SGs during stress.
 - **Panel B:** I developed a Python-based webserver that automatically quantifies the ability of sPrLD to go to SGs, using pixel intensity data extracted directly from the yeast microscopy images.
 - **Panel C:** A statistical test ("Tukey's HSD" post-hoc test) indicates which groups significantly differ from the others, while controlling the family-wise error rate across multiple hypothesis tests.
+- Python code for analyses and data visualizations in Panels B and C are included in this repository. Note that the plotting script creates a file that is required to run the ANOVA script, so they must be run sequentially.
 
 ![SG figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2024_JMB/SG_figure.png)
 
