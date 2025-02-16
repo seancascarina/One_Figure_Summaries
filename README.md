@@ -1,2 +1,2 @@
-# One_Figure_Summaries
-A portfolio of single-figure summaries from select scientific publications, along with corresponding code for reproducing relevant analyses and data visualizations.
+# One-Figure Summaries
+This repository serves as a portfolio of single-figure summaries from select scientific publications, along with corresponding code for reproducing relevant analyses and data visualizations. Each subdirectory corresponds to a separate publication. Within each directory, I provide a single figure that summarizes a key scientific discovery or highlights technical proficiency in an area of data analysis, statistics, data visualization, or data science. Accompanying the figure is a short description of the figure and analysis approach.
