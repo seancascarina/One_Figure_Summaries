@@ -1,13 +1,13 @@
 # Discovering protein features that affect their stress-response behavior in cells
-Cells can form clumps of protein and RNA called "stress granules" (SGs) in repsonse to hot temperatures. Only certain proteins go to SGs during stress, but it is not clear why some proteins go to SGs and others do not. All proteins are made of building blocks called "amino acids". There are 20 different types of amino acids, and their order and type in a protein sequence determines how each protein behaves in cells. Our lab discovered that specific amino acids - in this case, the amino acids abbreviated I, L, and V - control the ability of certain proteins called "prion-like domains" (PrLDs) to join SGs in cells.
+Cells can form clumps of protein and RNA called "stress granules" (SGs) in response to hot temperatures. Only certain proteins go to SGs during stress, but it is not clear why some proteins go to SGs and others do not. All proteins are made of building blocks called "amino acids". There are 20 different types of amino acids, and their order and type in a protein sequence determines how each protein behaves in cells. Our lab discovered that specific amino acids - in this case, the amino acids abbreviated I, L, and V - control the ability of certain proteins called "prion-like domains" (PrLDs) to join SGs in cells. The figure below shows microscopy images of yeast cells producing these PrLDs with varying levels of I, L, and V in their sequences, along with corresponding single-cell quantification of the amount of the PrLD in SGs.
+
+![SG figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2024_JMB/SG_figure.png)
 
 ## Brief Summary
 - **Panel A:** Progressively removing I, L, and V amino acids from the green "sPrLD2" protein prevents it from going to SGs during stress.
 - **Panel B:** I developed a Python-based webserver that automatically quantifies the ability of sPrLD to go to SGs, using pixel intensity data extracted directly from the yeast microscopy images.
 - **Panel C:** A statistical test ("Tukey's HSD" post-hoc test) indicates which groups significantly differ from the others, while controlling the family-wise error rate across multiple hypothesis tests.
 - **Python code for analyses and data visualizations in Panels B and C are included in this repository.** Note that the plotting script creates a file that is required to run the ANOVA script, so they must be run sequentially.
-
-![SG figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2024_JMB/SG_figure.png)
 
 ## Additional Detail
 **Panel A** shows images of yeast cells with two different proteins shown in different colors. The green color shows us where our protein of interest is in cells. The red color shows us where SGs are located in cells. Notice that the red protein always forms clumps that appear as bright spots. Compare that with the green "WT" protein, which starts out forming bright green spots at the same locations as the red bright spots. However, as more I, L, and V are removed (-3 ILV, -6 ILV, ... , -19 ILV), the green spots gradually become dimmer and dimmer before disappearing entirely around -12 ILV, even though the bright red spots still occur in the same cells.
