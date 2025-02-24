@@ -5,7 +5,7 @@
 These simple sequences, called "low-complexity domains" (LCDs), are biologically interesting because they often have unusual chemical properties and behaviors in living organisms. However, no one had yet discovered how common each type of LCD is and the functions of each type of LCD in different organisms on a large scale. In this study, I analyzed the frequencies and functions of LCDs in all proteins from >21,000 organisms. The figure below highlights just one of the techniques that I developed to quantify how common each type of LCD is in an individual organism compared to a "null" expectation.
 
 ![LCD figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2024_PLOS_Comput_Biol/LCD_Frequencies_Malaria_and_Humans.png)
-**Figure credit:** Modified from Cascarina and Ross (2024) *PLOS Comput Biol*.
+**Figure credit:** Cascarina and Ross (2024) *PLOS Comput Biol*.
 
 ## Brief Summary
 - **Panel A:** Certain types of LCDs (bright colors) are common in the malaria proteome. This heatmap shows the natural log of the odds ratio for each type of LCD compared to a randomized version of the Malaria proteome. The "Primary Amino Acid" (x-axis) essentially represents the most prevalent amino acid in the LCD, whereas the "Secondary Amino Acid" (y-axis). Together, these two amino acids comprise the "LCD class".
