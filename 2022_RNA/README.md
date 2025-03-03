@@ -14,7 +14,7 @@
 - Ran a naive grid search over various R and S minimum thresholds, then examined what fraction of resulting proteins are known to bind to RNA.
 - Validated newly identified RS proteins using Gene Ontology (GO) statistical analysis, analysis of existing data, and prediction models for RNA binding.
 
-![RS_GridSearchFigure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2024_JMB/RS_GridSearchFigure.png)
+![RS_GridSearchFigure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2022_RNA/RS_GridSearchFigure.png)
 **Figure credit:** Cascarina and Ross (2022) *RNA*.
 
 ## Brief Figure Summary
