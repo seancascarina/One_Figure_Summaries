@@ -14,7 +14,7 @@
 - Coerced seaborn's violinplot() function to make what appear to be a series of histograms with percentile markers to show self-referencing rate distributions for each journal. In reality, these are rotated violin plots with only half of each violin shown.
 - Performed ordinary least-squares regression to confirm accuracy of the automated quantification method for self-referencing rates, and *t*-tests to statistically compare groups of data.
 
-![self-referencing figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2023_Frontiers_Research_Metrics/SelfReferencing_figure.png)
+![self-referencing figure](https://github.com/seancascarina/One_Figure_Summaries/blob/main/2023_Frontiers_Research_Metrics/SelfReferencing_Figure.png)
 **Figure credit:** From Cascarina (2023) *Frontiers in Research Metrics and Analytics*.
 
 ## Brief Figure Summary
@@ -22,4 +22,4 @@
 - **Panel B:** Self-referencing rates are relatively stable over time for the PLOS journals.
 - **Panel C:** Self-referencing rates vary more substantially across a broader range of journals (non-PLOS journals).
 - **Panel D:** Median self-referencing rates for non-PLOS have tended to converge over time toward an industry-standard ~8-13%.
-- **Python code for analyses and data visualizations are included in this repository.**
+- **Python code for analyses and data visualizations are included in this repository.** Note that the QueryPubmed.py is included for demonstration purposes and will not run as-is because it requires a user email and a user-specific API key for making queries to Pubmed.
